@@ -49,3 +49,13 @@ table {
 
 /* Add Styles Here */
 body { font-family:Times; font-size:14px; }
+header {height : 100px; background-color: lightblue;}
+header h1 { background-color:gray; text-align: center;}
+.container_12 .grid_2 {height: 140px; background-color:#0C9;}
+.container_12 .grid_6 {
+	height: 100px;
+	padding-top: 10px;
+	font-size: x-large;
+}
+.container_12 .grid_12 {padding: 5px}
+footer .grid_12 {text-align:center; padding: 10px}
