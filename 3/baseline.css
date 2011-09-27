@@ -35,8 +35,15 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style;
+	text-align: center;
+	font: Ariel;
+	font-size: 25pt;
+	width: auto;
+	height:100%;
 }
+li {}
+
 blockquote, q {
 	quotes: none;
 }
@@ -72,5 +79,8 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
-
+header {text-align: center}
+section {width: 1000px}
+h1,h2 {font-size: 50pt}
+nav {border: 3px solid black}
 
