@@ -80,7 +80,7 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-header {text-align: center; margin: 20px}
+header {text-align: center; margin: 20px; }
 section {width: 100%; position: relative;}
 h1,h2 {font-size: 25pt; margin: 5px auto 5px 0px}
 nav {border-top: 3px solid black; border-bottom: 3px solid black;}
