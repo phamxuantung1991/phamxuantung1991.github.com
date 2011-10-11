@@ -78,6 +78,6 @@ h2 {font-size: 15pt; color: #6E4921; font-family: arial; padding-top: 7px; paddi
 #site-footer { width: 850px; margin-left: auto; margin-right: auto; padding-top: 20px;}
 #footer-contact {width: 200px; float: left; color: white; font-size: 10pt;  }
 #footer-follow {width: 300px;}
-#footer-contact h1 {font-family: helvetica; color: #B8D1BA; font-size: 15pt}
-#footer-follow h1 {font-family: helvetica; color: #B8D1BA; font-size: 15pt}
+#footer-contact h1 {font-family: helvetica; color: #B8D1BA; font-size: 15pt; padding-bottom: 7px}
+#footer-follow h1 {font-family: helvetica; color: #B8D1BA; font-size: 15pt; padding-bottom: 7px}
 
