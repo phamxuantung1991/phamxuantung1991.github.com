@@ -92,3 +92,8 @@ nav ul li {font-size: 1em; display: inline; list-style-type: square; margin: 10p
 #source {float:left}
 #copyright {float:right}
 .highlight {color:red}
+.logo { 
+	   font-size: 50px;
+	   font-family: league-gothic;}
+.vs {border: 3px}
+
