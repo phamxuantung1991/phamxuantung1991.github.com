@@ -1,0 +1,105 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style;
+	text-align: center;
+	font: Ariel;
+	font-size: 25pt;
+	width: auto;
+	height:100%;
+}
+li {}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+img {max-width:100%; max-height: 100%}
+h1, h2 {font-size: 4em}
+
+header {text-align: center; margin: 20px; background-image: url(images/dogvscat-logo.gif); background-repeat:no-repeat; background-position: center top; height:100px; text-indent:-999999px}
+body {max-width: 1040px; width:100%; margin-left:auto;margin-right: auto}
+section {width: 100%; position: relative; margin-left:auto;margin-right: auto}
+h1,h2 {font-size: 25pt; margin: 5px auto 5px 0px}
+nav {border-top: 3px solid black; border-bottom: 3px solid black;padding-top:5px}
+nav ul li {font-size: 1em; display: inline; list-style-type: square; margin: 10px 50px 5px auto}
+#article1 {float: left;  padding:1%; width:48%; min-width: 400px}
+#article2 {float: right; width:48%; padding:1%; min-width: 400px}
+#footer {text-align: center; position: relative; clear: both; border-top: 3px solid black; padding:15px}
+#source {float:left}
+#copyright {float:right}
+.highlight {color:red}
+.logo { 
+	   font-size: 50px;
+	   font-family: league-gothic;}
+.vs {border: 3px}
+
+@media screen and (max-width:500px) {
+	#article1 {float:none; width:98%;margin:0 1%}
+	#article2 {float:none; width:98%; margin:0 1%}
+	}
