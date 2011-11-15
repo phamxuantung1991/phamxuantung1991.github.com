@@ -88,8 +88,8 @@ section {width: 100%; position: relative; margin-left:auto;margin-right: auto}
 h1,h2 {font-size: 25pt; margin: 5px auto 5px 0px}
 nav {border-top: 3px solid black; border-bottom: 3px solid black;padding-top:5px}
 nav ul li {font-size: 1em; display: inline; list-style-type: square; margin: 10px 50px 5px auto}
-#article1 {float: left;  padding:1%; width:48%; min-width: 400px}
-#article2 {float: right; width:48%; padding:1%; min-width: 400px}
+#article1 {float: left;  padding:1%; width:48%; }
+#article2 {float: right; width:48%; padding:1%; }
 #footer {text-align: center; position: relative; clear: both; border-top: 3px solid black; padding:15px}
 #source {float:left}
 #copyright {float:right}
